@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/B_weather"
+        android:text="current weather"
+        android:layout_weight="1"
+        android:background="#ff70faff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scan_Bluetooth"
+        android:text="Bluetooth"
+        android:layout_weight="1"
+        android:background="#ff759aff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/B_Machine"
+        android:text="Machine"
+        android:layout_weight="1"
+        android:background="#ff75afff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/B_settings"
+        android:text="settings"
+        android:layout_weight="1"
+        android:background="#ffffff"/>
+
+
+</LinearLayout>
